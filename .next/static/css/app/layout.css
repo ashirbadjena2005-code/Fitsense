@@ -1731,6 +1731,9 @@ video {
 .pr-1 {
   padding-right: 0.25rem;
 }
+.pr-10 {
+  padding-right: 2.5rem;
+}
 .pr-2 {
   padding-right: 0.5rem;
 }
@@ -1754,9 +1757,6 @@ video {
 }
 .pt-6 {
   padding-top: 1.5rem;
-}
-.pr-10 {
-  padding-right: 2.5rem;
 }
 .text-left {
   text-align: left;
@@ -2285,17 +2285,17 @@ video {
   color: hsl(var(--foreground));
 }
 
+.hover\:text-gray-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-muted-foreground:hover {
   color: hsl(var(--muted-foreground));
 }
 
 .hover\:text-sidebar-accent-foreground:hover {
   color: hsl(var(--sidebar-accent-foreground));
-}
-
-.hover\:text-gray-700:hover {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {
