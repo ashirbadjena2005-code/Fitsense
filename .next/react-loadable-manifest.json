@@ -1,0 +1,20 @@
+{
+  "components/dashboard.tsx -> ./diet-plan": {
+    "id": "components/dashboard.tsx -> ./diet-plan",
+    "files": [
+      "static/chunks/_app-pages-browser_components_diet-plan_tsx.js"
+    ]
+  },
+  "components/dashboard.tsx -> ./progress-chart": {
+    "id": "components/dashboard.tsx -> ./progress-chart",
+    "files": [
+      "static/chunks/_app-pages-browser_components_progress-chart_tsx.js"
+    ]
+  },
+  "components/dashboard.tsx -> ./workout-plan": {
+    "id": "components/dashboard.tsx -> ./workout-plan",
+    "files": [
+      "static/chunks/_app-pages-browser_components_workout-plan_tsx.js"
+    ]
+  }
+}

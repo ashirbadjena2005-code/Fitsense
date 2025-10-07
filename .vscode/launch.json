@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Start API Server",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/api_server.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "FLASK_ENV": "development",
+        "FLASK_DEBUG": "1"
+      }
+    },
+    {
+      "name": "Train ML Models",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/ml_models.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Setup Database",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/database_setup.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Quick Start",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/quick_start.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
